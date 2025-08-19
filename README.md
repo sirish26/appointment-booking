@@ -46,11 +46,17 @@ This application uses a custom JWT-based authentication system. User passwords a
 
 ## What can I do if I have 2 more hours?
 
-*   Add a dashboard for users to manage their bookings.
-*   Improve UI/UX with more animations and transitions.
-*   Implement a notification system for booking confirmations and reminders.
-*   Add unit and integration tests for critical functionalities.
-*   **Implement secure password hashing** (e.g., using bcrypt) for user registration and login.
+*   **UI/UX Improvements:**
+    *   Change the card structure UI for a more modern and intuitive look.
+    *   Improve overall UI/UX with more animations and transitions.
+*   **Feature Enhancements:**
+    *   Implement a notification system for booking confirmations and reminders (leveraging existing email fields).
+    *   Add functionality for appointment cancellation and rescheduling.
+*   **Security & Data Management:**
+    *   Implement secure password hashing (e.g., using bcrypt) for user registration and login.
+    *   Encrypt sensitive data in the database for enhanced security.
+*   **Testing:**
+    *   Add unit and integration tests for critical functionalities.
 
 ## Deployment
 
